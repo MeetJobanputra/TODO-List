@@ -1,0 +1,28 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+}
+
+.todo-data {
+    margin: 10px;
+    padding: 12.5px 25px;
+}
+
+#add {
+    padding: 12.5px 40px;
+    font-size: 15px;
+    background-color:green;
+    color: white;
+    border:none;
+    border-radius: 10px;
+}

@@ -5,23 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>TO Do List</title>
+    <title>TO DO List</title>
 </head>
 <body>
     <header><h1>Todo App</h1></header>
 
     <main>
-        <section>
-            <input type="text" id="todo-input" class="todo-data" placeholder="Enter TODO here">
-            <input type="date" id="deadline-input" class="todo-data">
-            <button id="add" class="todo-data" onclick="onPress();">Add</button>
+        <section id="input-ui">
+            <input type="text" required id="todo-name" class="todo-data" placeholder="Enter TODO here">
+            <input type="date" required id="deadline" class="todo-data">
+            <button type="submit" id="add" class="todo-data" onclick="onPress();">Add</button>
         </section>
-        <section>
-            
+        <section id="display-todos">
+
         </section>
     </main>
-
-
 
 
 <script src="script.js"></script>
